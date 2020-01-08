@@ -25,6 +25,8 @@ module.exports = {
   get handleCardPayment() { return Stripe.handleCardPayment },
   get handleCardSetup() { return Stripe.handleCardSetup },
   get handleCardAction() { return Stripe.handleCardAction },
+  /** @deprecated */
   get confirmPaymentIntent() { return Stripe.confirmPaymentIntent },
+  get confirmCardPayment() { return Stripe.confirmCardPayment },
   get createPaymentMethod() { return Stripe.createPaymentMethod }
 }

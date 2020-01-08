@@ -166,4 +166,5 @@ export default {
 | handleCardSetup() | https://stripe.com/docs/stripe-js/reference#stripe-handle-card-setup |
 | handleCardAction() | https://stripe.com/docs/stripe-js/reference#stripe-handle-card-action |
 | confirmPaymentIntent() | https://stripe.com/docs/stripe-js/reference#stripe-confirm-payment-intent |
+| confirmCardPayment() | https://stripe.com/docs/js/payment_intents/confirm_card_payment |
 | createPaymentMethod() | https://stripe.com/docs/stripe-js/reference#stripe-create-payment-method |
